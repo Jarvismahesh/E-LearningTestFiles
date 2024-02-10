@@ -146,6 +146,7 @@ class ELearnApplicationTests {
 	}
 
 	@Test
+	@Order(9)
 	public void deleteCourse() {
 		int id = 2;
 		boolean exp = courseService.deleteCourse(id);
